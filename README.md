@@ -8,5 +8,5 @@
 ### <div align="center">:fire: Web App :alien:</div>
 
 <div class="row" align="center">
-  <img src="./gifs/video2.gif" width="338" height="600" />
+  <img src="./gifs/video2.gif" width="600" height="338" />
 </div>
