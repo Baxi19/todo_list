@@ -55,14 +55,17 @@ class _TodoListState extends State<TodoList> {
           title: const Text('Agregar tarea pendiente'),
           content: TextField(
             controller: _textFieldController,
-            decoration: const InputDecoration(hintText: 'Escriba su nueva tarea'),
+            decoration:
+                const InputDecoration(hintText: 'Escriba su nueva tarea'),
           ),
           actions: <Widget>[
             TextButton(
               child: const Text('Agregar'),
               onPressed: () {
-                Navigator.of(context).pop();
-                _addTodoItem(_textFieldController.text);
+                if(_textFieldController.text != ""){
+                  Navigator.of(context).pop();
+                  _addTodoItem(_textFieldController.text);
+                }
               },
             ),
           ],
