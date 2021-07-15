@@ -10,3 +10,7 @@
 <div class="row" align="center">
   <img src="./gifs/video2.gif" width="600" height="338" />
 </div>
+
+<div align="center">
+### Show some ❤️ by starring some of the repositories!
+</div>
